@@ -9,6 +9,7 @@ public class Test1 {
 	public static void main(String[] args) {
 		/*
 		 * 计算一个字符串中数字、大写英文、小写英文、中文、空格、其他字符的个数以及字符串的位数
+		 *
 		 * */
 		BufferedReader s = new BufferedReader(new InputStreamReader(System.in));
 		int len = 0, ben=0, num = 0, space = 0, others = 0,ch=0, sum=0;
