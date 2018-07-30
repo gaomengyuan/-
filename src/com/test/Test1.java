@@ -8,14 +8,14 @@ public class Test1 {
 
 	public static void main(String[] args) {
 		/*
-		 * ÊäÈëÒ»ĞĞ×Ö·û£¬·Ö±ğÍ³¼Æ³öÆäÖĞÓ¢ÎÄ×ÖÄ¸¡¢¿Õ¸ñ¡¢Êı×ÖºÍÆäËü×Ö·ûµÄ¸öÊı
+		 * è¾“å…¥ä¸€è¡Œå­—ç¬¦ï¼Œåˆ†åˆ«ç»Ÿè®¡å‡ºå…¶ä¸­è‹±æ–‡å­—æ¯ã€ç©ºæ ¼ã€æ•°å­—å’Œå…¶å®ƒå­—ç¬¦çš„ä¸ªæ•°
 		 * 
 		 * */
 		BufferedReader s = new BufferedReader(new InputStreamReader(System.in));
 		int len = 0, ben=0, num = 0, space = 0, others = 0,ch=0, sum=0;
 		String a = "";
         byte[]str = null;
-        System.out.println("ÇëÊäÈëA:");
+        System.out.println("è¯·è¾“å…¥A:");
         try {
 			a = s.readLine();
 		} catch (IOException e) {
@@ -45,14 +45,16 @@ public class Test1 {
 			}
 		}
 		sum=len+ben+num+space+ch/2+others;
-		System.out.println("Ğ¡Ğ´×ÖÄ¸¸öÊı:"+len);
-		System.out.println("´óĞ´×ÖÄ¸¸öÊı:"+ben);
-		System.out.println("Êı×Ö¸öÊı:"+num);
-		System.out.println("¿Õ¸ñ¸öÊı:"+space);
-		System.out.println("ºº×Ö¸öÊı:"+ch/2);
-		System.out.println("×Ö·û¸öÊı:"+others);
-		System.out.println("×Ü¸öÊı:"+sum);
+		System.out.println("å°å†™å­—æ¯ä¸ªæ•°:"+len);
+		System.out.println("å¤§å†™å­—æ¯ä¸ªæ•°:"+ben);
+		System.out.println("æ•°å­—ä¸ªæ•°:"+num);
+		System.out.println("ç©ºæ ¼ä¸ªæ•°:"+space);
+		System.out.println("æ±‰å­—ä¸ªæ•°:"+ch/2);
+		System.out.println("å­—ç¬¦ä¸ªæ•°:"+others);
+		System.out.println("æ€»ä¸ªæ•°:"+sum);
 		System.out.println("123456");
+		System.out.println("456123123");
+		System.out.println("456123123");
 		System.out.println("456123123");
 	}	
 }
