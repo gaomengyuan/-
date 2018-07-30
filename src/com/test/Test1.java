@@ -53,5 +53,6 @@ public class Test1 {
 		System.out.println("字符个数:"+others);
 		System.out.println("总个数:"+sum);
 		System.out.println("123456");
+		System.out.println("456123");
 	}	
 }
