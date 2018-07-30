@@ -8,18 +8,17 @@ public class Test1 {
 
 	public static void main(String[] args) {
 		/*
-		 * 杈撳叆涓�琛屽瓧绗︼紝鍒嗗埆缁熻鍑哄叾涓嫳鏂囧瓧姣嶃�佺┖鏍笺�佹暟瀛楀拰鍏跺畠瀛楃鐨勪釜鏁�
+		 * 计算一个字符串中数字、大写英文、小写英文、中文、空格、其他字符的个数以及字符串的位数
 		 * 
 		 * */
 		BufferedReader s = new BufferedReader(new InputStreamReader(System.in));
 		int len = 0, ben=0, num = 0, space = 0, others = 0,ch=0, sum=0;
 		String a = "";
         byte[]str = null;
-        System.out.println("璇疯緭鍏:");
+        System.out.println("请输入字符串:");
         try {
 			a = s.readLine();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		str = a.getBytes();
@@ -45,20 +44,12 @@ public class Test1 {
 			}
 		}
 		sum=len+ben+num+space+ch/2+others;
-		System.out.println("灏忓啓瀛楁瘝涓暟:"+len);
-		System.out.println("澶у啓瀛楁瘝涓暟:"+ben);
-		System.out.println("鏁板瓧涓暟:"+num);
-		System.out.println("绌烘牸涓暟:"+space);
-		System.out.println("姹夊瓧涓暟:"+ch/2);
-		System.out.println("瀛楃涓暟:"+others);
-		System.out.println("鎬讳釜鏁�:"+sum);
-		System.out.println("123456");
-
-		System.out.println("45612");
-
-		System.out.println("456123123123");
-
-		System.out.println("456123123");
-		System.out.println("456123123");
+		System.out.println("小写英文的个数:"+len);
+		System.out.println("大写英文的个数:"+ben);
+		System.out.println("数字的个数:"+num);
+		System.out.println("空格的个数:"+space);
+		System.out.println("中文的个数:"+ch/2);
+		System.out.println("其他字符的个数:"+others);
+		System.out.println("输入字符的总数:"+sum);
 	}	
 }
